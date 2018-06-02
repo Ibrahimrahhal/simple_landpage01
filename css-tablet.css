@@ -16,11 +16,36 @@ nav{ display: flex ;
 color: #fff;
     display: block;
     text-transform: uppercase;
+     text-align: center;
       padding: 12px;
      box-sizing: border-box;
     font-family: "Roboto Condensed" ;
 }
+.nav-text:hover {
+    background: #1bb210;
+    color: #fff;
+    
+    
+}
+.menu-link {
+    text-decoration: none;
+    color: #ffffff;
+    
+    
+    
+}
+
+.menu-link:hover {
+    color: rgb(0,0,0);
+    
+    
+}
+.menu-perent {
+    width: 100%;
+    
+}
 #nav-menu1 {
+     margin: 0 auto;
   width: 80%;
     display: flex;
     flex-direction: column;
