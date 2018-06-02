@@ -203,4 +203,7 @@ color: #fff;
     
 }
 
-
+.no-lg{
+display: none !important;
+    
+}
