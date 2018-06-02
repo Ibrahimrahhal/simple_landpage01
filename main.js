@@ -6,5 +6,6 @@ menuico.addEventListener("click",function(){
   menunav.classList.toggle("no-sm");
     br.classList.toggle("no-sm") ;
     menupar.classList.toggle("no-sm") ;
+    menuico.classList.toggle("menu-ico-clicked");
     
 })

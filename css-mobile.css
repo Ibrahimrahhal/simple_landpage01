@@ -251,4 +251,20 @@ display: none !important;
     background-size: cover;
      margin-right: 15px;
 }
+.menu-ico-clicked {
+      background-color: #ffffff;
+       background-image: url(assets/menu_hover.svg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+.menu-ico:hover {
+    background-color: #ffffff;
+       background-image: url(assets/menu_hover.svg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
 
+    
+    
+}
