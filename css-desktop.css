@@ -11,16 +11,30 @@ nav{ display: flex ;
 
 .nav-text {
 color: #fff;
-    display: inline ;
+    display: block;
     text-transform: uppercase;
-      padding: 12px;
+      padding:15px;
      box-sizing: border-box;
     font-family: "Roboto Condensed" ;
+   
 }
+.nav-text:hover {
+    background-color: rgba(27,178,16,0.8);
+    
+    
+}
+
 #nav-menu {
   width: 60%;
     display: flex;
     justify-content: space-around;
+    
+}
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+    
+    
     
 }
 #logo-nav {
