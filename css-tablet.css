@@ -23,6 +23,10 @@ nav{
     
     
 }
+#hero:hover{
+    height: 73vh;
+}
+
 .menu-perent {
     width: 100%;
     
@@ -120,7 +124,13 @@ nav{
     display: block;
   margin: 0 auto;
     margin-top: 100px;
-    width: 70%;
+    width: 60%;
+    transition: all 0.1s ;
+    cursor: pointer ;
+    
+}
+#iphone:hover { 
+    width: 65%;
     
 }
 .plan-specs-cont {
